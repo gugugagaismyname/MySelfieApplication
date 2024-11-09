@@ -88,8 +88,8 @@ class MainActivity : AppCompatActivity() {
         val emailIntent = Intent(Intent.ACTION_SEND).apply {
             type = "image/jpeg"
             putExtra(Intent.EXTRA_EMAIL, arrayOf("hodovychenko@op.edu.ua"))
-            putExtra(Intent.EXTRA_SUBJECT, "DigiJED [Ваше Прізвище та Ім'я]")
-            putExtra(Intent.EXTRA_TEXT, "Посилання на репозиторій із проєктом: [добавьте ваше посилання]")
+            putExtra(Intent.EXTRA_SUBJECT, "DigiJED Апанович Герман")
+            putExtra(Intent.EXTRA_TEXT, "Посилання на репозиторій із проєктом: https://github.com/gugugagaismyname/MySelfieApplication")
             putExtra(Intent.EXTRA_STREAM, photoURI)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         }
