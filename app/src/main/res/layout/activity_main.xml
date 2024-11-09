@@ -7,13 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- ImageView для отображения селфи -->
-
-
-    <!-- Кнопка для открытия камеры -->
-
-    <!-- Кнопка для отправки селфи на почту -->
-
+    <!-- ImageView для відображення селфі -->
     <ImageView
         android:id="@+id/selfieImageView"
         android:layout_width="320dp"
@@ -27,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.333" />
 
+    <!-- Кнопка відкриття камери -->
     <Button
         android:id="@+id/takeSelfieButton"
         android:layout_width="wrap_content"
@@ -39,6 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/selfieImageView"
         app:layout_constraintVertical_bias="0.0" />
 
+    <!-- Кнопка для відправлення селфі на пошту -->
     <Button
         android:id="@+id/sendSelfieButton"
         android:layout_width="wrap_content"
